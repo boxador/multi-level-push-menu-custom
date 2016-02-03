@@ -1,0 +1,19 @@
+{
+  "name": "multi-level-push-menu-custom",
+  "homepage": "https://github.com/mvpasarel/MultiLevelPushMenu",
+  "main": [
+    "css/component.css",
+    "js/classie.js",
+    "js/mlpushmenu.js",
+    "js/modernizr.custom.js"
+  ],
+  "_release": "8dc222ff64",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8dc222ff6460ec0a6b7bacd04b17f3e772933a2a"
+  },
+  "_source": "git://github.com/mvpasarel/MultiLevelPushMenu.git",
+  "_target": "*",
+  "_originalSource": "multi-level-push-menu-custom"
+}

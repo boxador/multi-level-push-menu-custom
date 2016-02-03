@@ -1,0 +1,10 @@
+{
+  "name": "multi-level-push-menu-custom",
+  "homepage": "https://github.com/mvpasarel/MultiLevelPushMenu",
+  "main": [
+    "css/component.css",
+    "js/classie.js",
+    "js/mlpushmenu.js",
+    "js/modernizr.custom.js"
+  ]
+}
