@@ -1,6 +1,6 @@
 {
   "name": "multi-level-push-menu-custom",
-  "homepage": "https://github.com/mvpasarel/MultiLevelPushMenu",
+  "homepage": "https://github.com/boxador/multi-level-push-menu-custom",
   "main": [
     "css/component.css",
     "js/classie.js",
