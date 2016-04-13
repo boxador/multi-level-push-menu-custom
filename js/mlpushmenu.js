@@ -103,7 +103,6 @@
 
 			// the menu should close if clicking somewhere on the body
 			var bodyClickFn = function(e) {
-				console.log(e);
 				if(!$(e.target).hasClass("menu-trigger") && !$(e.target).parents("#trigger").length) {
 					self._closeTheMenu();
 					$(".scroller").off(self.eventtype, bodyClickFn);
@@ -136,7 +135,7 @@
 					// 		bodyClickFn( this );
 					// 	}
 					// } );
-					
+
 				}
 			} );
 
@@ -161,7 +160,7 @@
 			// by clicking on the visible part of the level element
 			this.levels.forEach( function( el, i ) {
 				el.addEventListener( self.eventtype, function( ev ) {
-					ev.preventDefault();
+					// ev.preventDefault();
 					// ev.stopPropagation();
 					var level = el.getAttribute( 'data-level' );
 					if( self.level > level ) {
@@ -218,10 +217,10 @@
 			// App.alignMiddleBoxes();
 			setTimeout(function() {
 				$(".mp-pusher, .mp-level, .scroller").css('transition', 'all 0.5s');
-				 // $(".mp-pusher, .mp-level").css('transition', 'none');	
+				 // $(".mp-pusher, .mp-level").css('transition', 'none');
 			}, 500)
 
-			
+
 		},
 		// close the menu
 		_resetMenu : function() {
