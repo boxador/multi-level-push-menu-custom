@@ -214,6 +214,7 @@
 			// add class mp-level-open to the opening level element
 			classie.add( subLevel || this.levels[0], 'mp-level-open' );
 			$("#mp-menu").addClass("opened");
+			$('#mp-menu').trigger('mlp.open');
 			// App.alignMiddleBoxes();
 			setTimeout(function() {
 				$(".mp-pusher, .mp-level, .scroller").css('transition', 'all 0.5s');
@@ -238,6 +239,7 @@
 			this._setTransform('translate3d(0,0,0)');
 			this._toggleLevels();
 			$("#mp-menu").removeClass("opened");
+			$('#mp-menu').trigger('mlp.close');
 			//App.alignMiddleBoxes();
 			$(".menu-trigger").show();
 			this.open = false;
